@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto:wght@500&display=swap');*/
+
+
+.header{
+    background-color: rgba(53,58,64,255);
+    padding: 0 3em;
+}
+
+.cont>li>a{
+    color: gray;
+    font-size: small;
+}
+
+.nav>li:last-child a{
+    color: rgb(41, 167, 68);
+}
+
+.nav-link:hover{
+    color: whitesmoke !important;
+}
+
+.botontickets{
+    background-color: rgb(41, 167, 68) !important;
+    color:white !important;
+}
+
+.banner{
+    background: url(./images/Gnota_34722.jpg) no-repeat center rgba(0, 0, 0, 0.5); 
+    background-blend-mode:color;
+    background-size: 100% 100%;
+    height: 75vh;
+    padding: 7%;
+}
+
+.card-text{
+    font-size: small;
+}
+
+.subA{
+    background-color: rgba(254,193,7,255);
+    font-size: small;
+    color: black;
+    font-weight: 500;
+    border-radius: 4px;
+    padding: 0.2rem  0.3rem;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.subB{
+    background-color: rgba(23,162,183,255);
+    font-size: small;
+    color: blanchedalmond;
+    font-weight: 500;
+    border-radius: 3px;
+    padding: 0.2rem  0.3rem;
+}
+
+.subC{
+    background-color:rgb(108, 117, 124);
+    font-size: 0.9rem;
+    color: blanchedalmond;
+    font-weight: 500;
+    border-radius: 4px;
+    padding: 0.2rem 0.3rem;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.subD{
+    background-color: rgb(221, 53, 68);
+    font-size: small;
+    color: blanchedalmond;
+    font-weight: 500;
+    border-radius: 4px;
+    padding: 0.2rem  0.4rem;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.letterspacing{
+    letter-spacing:0.9px;
+}
+
+
+.backg{
+    background-color: rgb(53, 58, 64);
+}
+
+.letraxs{
+    font-size: 0.9rem;
+}
+
+.btnenviar{
+    color: white !important;
+    background-color: rgb(150, 201, 62) !important;
+}
+
+.btnenviar:hover{
+    background-color: rgb(29, 114, 40) !important;
+}
+
+h5{
+    align-items: flex-end
+}
+
+.publicidad {
+    background-color: #6a767b;
+    max-width: auto;
+    min-width: 300;
+}
+
+.piePagina {
+    background: linear-gradient(90deg, rgba(2, 0, 36, 0.9682247899159664) 0%, rgb(3, 64, 95) 36%, rgb(2, 74, 102) 100%);
+    padding: 20px;
+    margin-top: 20px;
+}
+
+
+.fondo{
+    background-color: #6a767b;
+    max-width: auto;
+    min-width: 300;
+}
+
+/*footer*/
+
+div.navbar, .navbar-expand-sm{
+    background-color: rgba(12, 66, 99);
+    height: 15vh;
+}
+
+div.navbar-collapse a{
+    color: white;
+}
+
+a.nav-link.active.inicio{
+    color: white;
+
+}
+
+a.nav-link.active.inicio:hover{
+    color: rgb(4, 4, 40);
+}
